@@ -13,7 +13,7 @@ const BookmarkTab = props => {
       <p className="time">{timeAccessed}</p>
       <div className="tab-conatiner">
         <div className="tab-content-container">
-          <img src={logoUrl} alt="domain logo" className="logo-img" />
+          <img src={logoUrl} alt="domain logo" className="web-img" />
           <div className="details-container">
             <p className="title">{title}</p>
             <p className="tab-url">{domainUrl}</p>
